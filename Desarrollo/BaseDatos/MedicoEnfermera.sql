@@ -1,0 +1,10 @@
+insert into MedicoEnfermera (Matricula, Nomre, ApPaterno, ApMaterno, Contrasena, TipoUsuario) values ('1225024319', 'Fonsie', 'Tutchings', 'Heustice', 'XgUfzm7WJfu', 'A');
+insert into MedicoEnfermera (Matricula, Nomre, ApPaterno, ApMaterno, Contrasena, TipoUsuario) values ('2756851269', 'Syman', 'Caunter', 'Horsfield', '8FmSIaMmad0', 'A');
+insert into MedicoEnfermera (Matricula, Nomre, ApPaterno, ApMaterno, Contrasena, TipoUsuario) values ('7373410114', 'Fonzie', 'Coie', 'Harsnipe', 'LiRKVU0', 'A');
+insert into MedicoEnfermera (Matricula, Nomre, ApPaterno, ApMaterno, Contrasena, TipoUsuario) values ('7752024642', 'Sabina', 'Bellwood', 'Simeone', 'Iul4B7RlpYe', 'A');
+insert into MedicoEnfermera (Matricula, Nomre, ApPaterno, ApMaterno, Contrasena, TipoUsuario) values ('5689813055', 'Torrance', 'Marfield', 'Ferryn', 'tqqmo7lFeMo', 'A');
+insert into MedicoEnfermera (Matricula, Nomre, ApPaterno, ApMaterno, Contrasena, TipoUsuario) values ('0818492748', 'Theresita', 'De la Perrelle', 'Alesio', 'icBGmxs2ZveE', 'A');
+insert into MedicoEnfermera (Matricula, Nomre, ApPaterno, ApMaterno, Contrasena, TipoUsuario) values ('2336868784', 'Nicolai', 'Gritton', 'Aspinell', 'dB5OqCGMV', 'A');
+insert into MedicoEnfermera (Matricula, Nomre, ApPaterno, ApMaterno, Contrasena, TipoUsuario) values ('3516394379', 'Deidre', 'Ianniello', 'Morit', 'mW35D5Uoap', 'A');
+insert into MedicoEnfermera (Matricula, Nomre, ApPaterno, ApMaterno, Contrasena, TipoUsuario) values ('3829378631', 'Morty', 'Wasbrough', 'Quilleash', '5PbNB8iepC', 'A');
+insert into MedicoEnfermera (Matricula, Nomre, ApPaterno, ApMaterno, Contrasena, TipoUsuario) values ('0409691744', 'Tracy', 'Finders', 'Broggio', 'nGZ0eVXA0Vgi', 'A');

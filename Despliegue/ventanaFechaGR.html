@@ -1,0 +1,79 @@
+<!--
+Nombre: ventanaFechaGR.html
+Objetivo:Capturar la fecha inicial y final entre las cuales se mostraran a los generar los reportes generales o entre las cuales se mostrará la lista de pacientes con fecha de detección en dicho intervalo
+Creado por: Perez Romero Verónica
+Fecha: 29 de diciembre del 2019
+Versión: 1.0
+Declaraciones:
+Variables:
+Conexiones: individualesR.php,generalesR.php
+Constantes: 
+->
+<-!--Modal para reportes individuales
+fecha de detección -->
+<div class="modal fade" id="ventanaFechaIndividuales" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Seleccione las fechas del reporte</h4>
+      </div>
+      <div class="modal-body">
+        <!--Se envia fecha1(fecha inicial) y fecha12(fecha final) a la pantalla individuales por el método POST-->
+        <form class="form-inline" id="form-Fecha1" method="POST" action="individualesR.php">
+          <div class="form-group">
+            <label for="fechaInputI1">Fecha inicial&nbsp&nbsp</label>
+            <input type="date" name="fecha1" id="fechaInputI1" value="" required/> 
+          </div>
+          <div class="form-group">
+            <label for="fechaInputF1">Fecha final&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+            <input type="date" name="fecha12" id="fechaInputF1" value="" required/> 
+          </div> 
+          <input type="hidden" name="tipoOperacion" value="registroFecha1"/>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <input class="btn btn-default" type="submit" value="Continuar"/>
+            </div>
+          </div>        
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" id="botonFecha1">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal para reportes generales-->
+<div class="modal fade" id="ventanaFechaGenerales" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Seleccione las fechas del reporte</h4>
+      </div>
+      <div class="modal-body">
+        <!--Se envia fecha2(fecha inicial) y fecha22(fecha final) a la pantalla generales por el método POST-->
+        <form class="form-inline" id="form-Fecha2" method="POST" action="generalesR.php">
+          <div class="form-group">
+            <label for="fechaInputI2">Fecha inicial&nbsp&nbsp</label>
+            <input type="date" name="fecha2" id="fechaInputI2" value="" required/>
+          </div>
+          <div class="form-group">
+            <label for="fechaInputF2">Fecha final&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+            <input type="date" name="fecha22" id="fechaInputF2" value="" required/> 
+          </div> 
+          
+          <input type="hidden" name="tipoOperacion" value="registroFecha2"/>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <!--<button type="submit" class="btn btn-default">Continuar</button>-->
+              <input class="btn btn-default" type="submit" value="Continuar"/>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>

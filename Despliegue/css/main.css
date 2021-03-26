@@ -1,0 +1,41 @@
+/****************************************************************************************
+//Nombre:         main.css
+//Objetivos:      Hoja de estilos para los formularios
+//Creado por:     Lázaro Martínez Abraham Josué
+//Fecha:          viernes 3 de enero de 2020
+//version:        1.0                 
+*****************************************************************************************/
+.LabelPersonalizadoCampoLargo{
+  background-color: rgba(46,139,87,0.5);
+}
+
+textarea{
+  resize: none;
+}
+
+.BotonPersonalizado{
+  background-color: rgba(46,139,87,0.5);
+  border-color: rgba(46,139,87,0.5);
+  color: white;
+}
+
+.BotonPersonalizado:hover{
+  background-color: rgba(31,95,59,0.9);
+  border-color: rgba(31,95,59,0.9);
+  color: gray;
+}
+
+.BotonPersonalizado:focus, .BotonPersonalizado.focus {
+  box-shadow: 0 0 0 0.2rem rgba(31,95,59,0.5);
+}
+
+.BotonPersonalizado:not(:disabled):not(.disabled):active, .BotonPersonalizado:not(:disabled):not(.disabled).active,
+.show > .BotonPersonalizado.dropdown-toggle {
+  background-color: rgba(31,95,59,0.9);
+  border-color: rgba(31,95,59,0.9);
+}
+
+.BotonPersonalizado:not(:disabled):not(.disabled):active:focus, .BotonPersonalizado:not(:disabled):not(.disabled).active:focus,
+.show > .BotonPersonalizado.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(31,95,59,0.5);
+}

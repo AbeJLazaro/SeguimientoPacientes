@@ -1,0 +1,106 @@
+/*
+Nombre: estilosGR.css
+Objetivo: Dar formato a las pantalla de generación de reportes, tablas de personal y tablas de pacientes registrados
+Creado por: Perez Romero Verónica
+Fecha: 28 de diciembre del 2019
+Versión: 1.0
+Declaraciones:
+Variables: 
+Conexiones: CrimsonText-Regular.ttf
+Constantes: 
+*/
+@font-face{
+	font-family:'Crimson Text' ;
+	src: url(../librerias/fonts/CrimsonText-Regular.ttf);
+}
+*{
+	box-sizing: border-box;
+}
+body
+{
+	font-family: 'Crimson Text', serif;
+	margin: 0;
+}
+/*---------------------Estilos base---------------*/
+img{
+	display: block;
+	width: 100%;
+	max-width: : 100%;
+}
+
+h1,h2,{
+	margin: 0;
+}
+/*.col-sm-2{
+	max-width: 100px;
+}*/
+.cabecera__imagen {
+	max-width: 100px;
+}
+.container {
+	width: 100%;
+	margin: auto;
+}
+.container--flex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.column{
+	width: 100%;
+}
+/*---------------------Estilos header-------------*/
+.cabecera{
+	width: 100%;
+	background-color: #2E8B57;
+}
+.logo{
+	font-size: 4em;
+	padding: 10px;
+	color: white;
+}
+.cabecera__imagen{
+	margin: 0 auto;
+}
+/*---------------------Estilos principales--------*/
+.tipos-reportes .column{
+	margin-bottom: 30px;
+}
+.tipos-reportes__link{
+	display: block;
+	margin: auto;
+	max-width: 100px;
+	font-size: 100px;
+	color: rgb(46, 139, 87);
+
+}
+.tipos-reportes__link:hover{
+	color white;
+}
+.tipos-reportes__title{
+	text-align: center;
+	font-size: 1.3em;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.main{
+	padding-top: 30px;
+}
+.footer{
+	padding-top: 30px;
+}
+
+/*---------------------Estilos responsivos--------*/
+@media screen and (min-width: 480px){
+	.cabecera__imagen{
+		margin: 10px;
+		align-content: right;
+	}
+	.column--50{
+		width: 50%;
+	}
+	.column--50-25{
+		width: 50%;
+	}
+} 
